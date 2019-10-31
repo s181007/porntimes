@@ -1,0 +1,46 @@
+[Viewer]
+ClientSize=400,350
+
+[Brush]
+Pos=L0,T0,R0,B0
+Color=DefaultFaceColor
+
+[GradationBrush]
+Pos=L0,T0,R0,B0
+BeginColor=0x40ffffff
+EncColor=0x40000000
+
+[Text]
+Pos=L10,T10,R10,H60
+Text=Found the command line for encoding. Please press OK to select an item. (When you press OK without selecting anything, you can use the save function of SoundEngine)
+Group=Save
+
+[Text]
+Pos=L10,T10,R10,H60
+Text=Found the command line for decoding. Please press OK to select an item.
+Group=Open
+
+[TextList]
+Pos=L10,T80,R26,B40
+Size=8
+Align=L,C
+Name=TextList
+
+[ScrollBar]
+Pos=R26,T60,R10,B50
+Name=ScrollBar
+PageValue=8
+
+
+// OK, Cancel
+[Button]
+Pos=C-30%,B30,C0,H20
+Text=OK
+Name=OK
+Round=10,0,10,0
+
+[Button]
+Pos=C0,B30,C30%,H20
+Text=Cancel
+Name=Cancel
+Round=0,10,0,10

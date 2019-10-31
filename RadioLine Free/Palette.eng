@@ -1,0 +1,7 @@
+[Viewer]
+Dpi=96.0
+Text=Palette
+
+[Brush]
+Pos=L0,T0,R0,B0
+Color=DefaultFaceColor

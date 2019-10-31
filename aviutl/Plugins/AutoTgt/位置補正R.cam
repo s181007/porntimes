@@ -1,0 +1,8 @@
+--track0:ï‚ê≥RZ,-5000,5000,0
+
+  local dz=obj.track0
+  local cam = obj.getoption("camera_param")
+
+  cam.rz=cam.rz+dz
+
+  obj.setoption("camera_param",cam)

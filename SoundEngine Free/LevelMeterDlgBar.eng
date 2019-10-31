@@ -1,0 +1,10 @@
+[Viewer]
+ClientSize=72
+
+[Brush]
+Pos=L0,T0,R0,H1
+Color=DefaultShadowColor
+
+[LevelMeter]
+Pos=L0,T1,R0,B0
+Name=LevelMeter

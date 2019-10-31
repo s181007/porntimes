@@ -1,0 +1,43 @@
+[Viewer]
+Dpi=96.0
+
+[Image]
+Pos=L0,T0
+FileName=resource\splash.png
+
+[Text]
+Pos=L110,T65,R10,H20
+Name=Version
+
+[Text]
+Pos=L110,T85,R10,H20
+Text=Copyright (C) 2006-2013 Coderium
+Align=R
+
+[Text]
+Pos=L120,T110,R70,H60
+Text=個人・教育利用及び転載目的でご利用頂けます。またCoderiumは、RadioLine Freeによって生ずるいかなる結果に対し責任を負いません。
+Font=9
+
+[Button]
+Pos=C-20%,B30,C0,H20
+Text=同意する
+Name=Agree
+Round=10,0,10,0
+FaceColor=0x40ffffff
+Group=First
+
+[Button]
+Pos=C0,B30,C20%,H20
+Text=同意しない
+Name=NotAgree
+Round=0,10,0,10
+FaceColor=0x40ffffff
+Group=First
+Font=9
+
+[Text]
+Pos=L120,B30,R70,H50
+Text=Enjoy your RadioLine Life!!
+Font=10
+Group=NotFirst

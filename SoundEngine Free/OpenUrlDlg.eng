@@ -1,0 +1,35 @@
+[Viewer]
+ClientSize=400,125
+Text=Open the URL
+
+[Brush]
+Pos=L0,T0,R0,B0
+Color=DefaultFaceColor
+
+[Text]
+Pos=L10,T10,R10,H50
+Text=Open the file in the URL. (No ability to parse the HTML and streaming) Enter the URL, please press OK.
+
+[Text]
+Pos=L10,T60,W40,H20
+Text=URL:
+Align=C,C
+
+[Edit]
+Pos=L50,T60,R10,H20
+Option=Edge
+Name=OpenUrl
+
+[Button]
+Pos=C-80,B30,C0,B10,L0,T95,W40,H20
+Round=10,0,10,0
+FaceColor=0x40ffffff
+Text=OK
+Name=OK
+
+[Button]
+Pos=C0,B30,C80,B10,L0,T95,W40,H20
+Round=0,10,0,10
+FaceColor=0x40ffffff
+Text=Cancel
+Name=Cancel

@@ -1,0 +1,26 @@
+[Viewer]
+Dpi=96.0
+
+[Image]
+Pos=L0,T0,R0,B0
+FileName=resource\splash.jpg
+
+[Text]
+Pos=L20,T85,R120,H20
+Name=Version
+
+[Text]
+Pos=L20,T105,R120,H20
+Text=Copyright (C) 1999-2017 Coderium
+Align=R
+
+[Text]
+Pos=L20,T125,R120,H30
+Text=Coderium is not responsible for any results caused by SoundEngine Free. Thank you also RadioLine Free.
+Font=8
+
+[Text]
+Pos=L20,T152,R120,H20
+Text=Enjoy your Sound Life!!
+Font=8
+Align=R

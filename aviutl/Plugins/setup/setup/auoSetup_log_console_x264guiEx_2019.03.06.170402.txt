@@ -1,0 +1,200 @@
+[debug]: Init():イベント "AUOSETUP_EVENT_ABORT_12208"を監視開始
+[info ]: Aviutlフォルダ: "C:\Users\riia0\OneDrive\デスクトップ\aviutl" にインストールします...
+[debug]: searchFileExceptInstallDir():[1]
+[debug]: C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx.auo
+[debug]: Init():auoSetup設定
+[debug]: auoSetup build     Nov 17 2018 19:40:36
+[debug]: OS Version:        Windows 10 x64 (0)
+[debug]: current dir:       C:\Users\riia0\OneDrive\デスクトップ\aviutl\plugins\setup\setup
+[debug]: clr ver (build):   v4.0.30319
+[debug]: clr ver (runtime): v4.0.30319
+[debug]: 
+[debug]: auoSetup:          C:\Users\riia0\OneDrive\デスクトップ\aviutl\plugins\setup\setup\auoSetup.exe
+[debug]: installName:       x264guiEx.auo
+[debug]: AviutlDir:         C:\Users\riia0\OneDrive\デスクトップ\aviutl
+[debug]: bAviutlExists:     True
+[debug]: PluginsDir:        C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins
+[debug]: DownloadTmpDir:    C:\Users\riia0\OneDrive\デスクトップ\aviutl\plugins\setup\setup
+[debug]: bUpdateOverwrite:  False
+[debug]: bInstallX264:      True
+[debug]: nInstallX265:      0
+[debug]: bInstallNero:      False
+[debug]: bInstallQaac:      True
+[debug]: _appledll:         False
+[debug]: bInstallLsmash:    True
+[debug]: bInstallStg:       False
+[debug]: nInstallIni:       0
+[debug]: bInstallAuo:       False
+[debug]: autoRun:           True
+[debug]: autoUpdateIni:     False
+[debug]: autoUpdateStg:     False
+[debug]: updateOverwrite:   False
+[debug]: 
+[debug]: auoSetup Dir [C:\Users\riia0\OneDrive\デスクトップ\aviutl\plugins\setup\setup]
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\plugins\setup\setup\auoSetup.exe
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\plugins\setup\setup\auoSetup_log_console_x264guiEx_2019.03.06.170402.txt
+[debug]: 
+[debug]: AviutlDir [C:\Users\riia0\OneDrive\デスクトップ\aviutl]
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\aviutl.exe
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\aviutl.ini
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\aviutl.sav
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\aviutl.txt
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\aviutl.vfp
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exedit.anm
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exedit.auf
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exedit.aui
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exedit.auo
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exedit.cam
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exedit.ini
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exedit.obj
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exedit.scn
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exedit.tra
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exedit.txt
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\lua.txt
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\lua51.dll
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\デフォルト.cfg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\デフォルト.sav
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\backup\2019-03-06_17-01-23.exedit_backup
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\backup\2019-03-06_17-03-40.exedit_backup
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\boxdumper.exe
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\libsoxconvolver.dll
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\libsoxr.dll
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\muxer.exe
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\qaac.exe
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\refalac.exe
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\remuxer.exe
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\timelineeditor.exe
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\x264_2935_x64.exe
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\lwcolor.auc
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\lwdumper.auf
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\lwinput.aui
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\lwmuxer.auf
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx.auo
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx.conf
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx.ini
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\AutoTgt\オートターゲット.cam
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\AutoTgt\オートターゲット100.cam
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\AutoTgt\位置補正.cam
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\AutoTgt\位置補正R.cam
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\setup\setup\auoSetup.exe
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\setup\setup\auoSetup_log_console_x264guiEx_2019.03.06.170402.txt
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\PS3.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\PSP.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\twitter.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\Xbox 360.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\youtube.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\アニメ (高圧縮).stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\アニメ (高画質).stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\バランス.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\高画質.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\高速.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\Bluray\Bluray (tff).stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\Bluray\Bluray.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\iPhone iPod iPad\iPhone3G, iPodtouch2-3.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\iPhone iPod iPad\iPhone4, iPad, iPodtouch4.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\iPhone iPod iPad\iPhone4S, iPad2.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\ニコ動 (く) 2018\ニコ動  30分以下.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\ニコ動 (く) 2018\ニコ動 30分以上.stg
+[debug]:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins\x264guiEx_stg\ニコ動 (く) 2018\ニコ動 音質重視.stg
+[debug]: 
+[debug]: ex_stg
+[debug]:   s_x264.fullpath:                [file exists: yes]: C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\x264_2935_x64.exe
+[debug]:   s_x264.fullpath_highbit:        [file exists: no ]: C:\Users\riia0\OneDrive\デスクトップ\aviutl\
+[debug]:   s_aud[QAAC_IDX].fullpath:       [file exists: yes]: C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\qaac.exe
+[debug]:   s_aud[REFALAC_IDX].fullpath:    [file exists: yes]: C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\refalac.exe
+[debug]:   s_mux[MUXER_MP4].fullpath:      [file exists: yes]: C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\remuxer.exe
+[debug]:   s_mux[MUXER_MP4_RAW].fullpath:  [file exists: yes]: C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\muxer.exe
+[debug]:   s_mux[MUXER_TC2MP4].fullpath:   [file exists: yes]: C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\timelineeditor.exe
+[debug]: Init():qtmode: QAAC_APPLEDLL_IN_EXEDIR
+[debug]: x264::init():
+[debug]:   aviutlDir:        C:\Users\riia0\OneDrive\デスクトップ\aviutl
+[debug]:   pluginsDir:       C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins
+[debug]:   downloadTmpDir:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\plugins\setup\setup
+[debug]:   bAviutlExists:    True
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [x264]
+[debug]: x264 10bit::init():
+[debug]:   aviutlDir:        C:\Users\riia0\OneDrive\デスクトップ\aviutl
+[debug]:   pluginsDir:       C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins
+[debug]:   downloadTmpDir:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\plugins\setup\setup
+[debug]:   bAviutlExists:    True
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [x264 10bit]
+[debug]: qaac::init():
+[debug]:   aviutlDir:        C:\Users\riia0\OneDrive\デスクトップ\aviutl
+[debug]:   pluginsDir:       C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins
+[debug]:   downloadTmpDir:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\plugins\setup\setup
+[debug]:   bAviutlExists:    True
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [qaac]
+[debug]: l-smash::init():
+[debug]:   aviutlDir:        C:\Users\riia0\OneDrive\デスクトップ\aviutl
+[debug]:   pluginsDir:       C:\Users\riia0\OneDrive\デスクトップ\aviutl\Plugins
+[debug]:   downloadTmpDir:   C:\Users\riia0\OneDrive\デスクトップ\aviutl\plugins\setup\setup
+[debug]:   bAviutlExists:    True
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [l-smash]
+[debug]: x264::check_only_all():
+[debug]: x264::check_set_param():
+[debug]: x264::check_set_param():currentFileFullPath: C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\x264_2935_x64.exe
+[debug]: x264::check_set_param():latestCheckUrlList[1](id = 0, urlIdMapping = 1): https://onedrive.live.com/download?resid=6BDD4375AC8933C6!4484&authkey=!ABJHFkrCepS7euQ&ithint=file%2ctxt
+[debug]: x264::check_set_param():latestCheckUrlList[2](id = 1, urlIdMapping = 2): https://www.dropbox.com/s/430qrgxyiit3s0h/latest_build.txt?dl=1
+[debug]: x264::check_set_param():latestCheckUrlList[3](id = 2, urlIdMapping = 3): https://drive.google.com/uc?export=download&id=0BzA4dIFteM2dWUp0OE10ZXpYREU
+[debug]: x264::check_set_param():nInstall = True
+[debug]: x264::check():urlId: 0
+[debug]: x264::getMesBaseUrl():url[0]:https://onedrive.live.com/download?resid=6BDD4375AC8933C6!4484&authkey=!ABJHFkrCepS7euQ&ithint=file%2ctxt
+[debug]: x264::getMesBaseUrl():downloader.download(): status: RES_FIN
+[debug]: x264::getUrlVer():urlId: 0, urlText: 2935
+[info ]: x264のダウンロードリンクを取得完了
+[debug]: x264::getUrlVer():latestDownloadUrl: https://onedrive.live.com/download?resid=6BDD4375AC8933C6!4486&authkey=!AI0ggzXuP4DGYSQ&ithint=file%2czip
+[debug]: x264::getMesBaseUrl():getUrlVer(urlId = 0): latestVer: r2935
+[debug]: x264::check():bAviutlExists
+[debug]: x264::check_update():currentFileFullPath: "C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\x264_2935_x64.exe"
+[debug]: x264::getExeVer():
+[debug]: x264::getExeVer():currentFileFullPath = C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\x264_2935_x64.exe exists.
+[debug]: x264::getExeVer():get_exe_version_from_cmd(): success: rev 2935
+[info ]: x264の更新は必要ありません。 r2935
+[debug]: check():installer->check_only_all() [x264]: OK
+[debug]: x264 10bit::check_only_all():
+[debug]: x264 10bit::check_set_param():
+[debug]: x264 10bit::check_set_param():currentFileFullPath: C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\x264_2935_x64.exe
+[debug]: x264 10bit::check_set_param():nInstall = False
+[debug]: x264 10bit::check_only_all():ダウンロードは必要ありません。
+[debug]: check():installer->check_only_all() [x264 10bit]: OK
+[debug]: qaac::check_only_all():
+[debug]: qaac::check_set_param():
+[debug]: qaac::check():urlId: 0
+[debug]: qaac::getMesBaseUrl():url[0]:https://sites.google.com/site/qaacpage/cabinet/
+[debug]: qaac::getMesBaseUrl():downloader.download(): status: RES_FIN
+[debug]: qaac::getUrlVer():findUrl: https://sites.google.com/site/qaacpage/cabinet/qaac_%{rev}.zip?attredirects=0&amp;d=1
+[debug]: qaac::getUrlVer():baseUrl: https://sites.google.com/site/qaacpage/cabinet/
+[debug]: qaac::getUrlVer():revString: 2.68
+[debug]: qaac::getUrlVer():revArray: 2.68
+[debug]: qaac::getMesBaseUrl():getUrlVer(urlId = 0): latestVer: 2.68
+[debug]: qaac::check():bAviutlExists
+[debug]: qaac::check_update():currentFileFullPath: "C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\qaac.exe"
+[debug]: qaac::getExeVer():currentFileFullPath = C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\qaac.exe exists.
+[debug]: qaac::getExeVer():get_exe_version_from_cmd(): success.
+[info ]: qaacの更新は必要ありません。 2.68
+[debug]: check():installer->check_only_all() [qaac]: OK
+[debug]: l-smash::check_only_all():
+[debug]: l-smash::check_set_param():
+[debug]: l-smash::check_set_param():currentFileFullPath: C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\remuxer.exe
+[debug]: l-smash::check_set_param():latestCheckUrlList[1](id = 0): https://onedrive.live.com/download?resid=6BDD4375AC8933C6!4437&authkey=!AMidqXDZOeJtv4g&ithint=file%2ctxt
+[debug]: l-smash::check_set_param():latestCheckUrlList[2](id = 1): https://www.dropbox.com/s/f7knxwnjvispv7i/latest_build.txt?dl=1
+[debug]: l-smash::check_set_param():latestCheckUrlList[3](id = 2): https://drive.google.com/uc?export=download&id=0BzA4dIFteM2dVHJDRk9rSlE1X0E
+[debug]: l-smash::check():urlId: 0
+[debug]: l-smash::getMesBaseUrl():url[0]:https://onedrive.live.com/download?resid=6BDD4375AC8933C6!4437&authkey=!AMidqXDZOeJtv4g&ithint=file%2ctxt
+[debug]: l-smash::getMesBaseUrl():downloader.download(): status: RES_FIN
+[debug]: l-smash::getUrlVer():urlId: 0, urlText: 1474 
+[debug]: l-smash::getUrlVer():latestDownloadUrl: https://onedrive.live.com/download?resid=6BDD4375AC8933C6!4438&authkey=!AGhkFjNWPSo1VDY&ithint=file%2czip
+[debug]: l-smash::getMesBaseUrl():getUrlVer(urlId = 0): latestVer: r1474
+[debug]: l-smash::check():bAviutlExists
+[debug]: l-smash::check_update():currentFileFullPath: "C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\remuxer.exe"
+[debug]: l-smash::getExeVer():
+[debug]: l-smash::getExeVer():currentFileFullPath = C:\Users\riia0\OneDrive\デスクトップ\aviutl\exe_files\remuxer.exe exists.
+[debug]: l-smash::getExeVer():get_exe_version_from_cmd(): success.
+[info ]: l-smashの更新は必要ありません。 r1474
+[debug]: check():installer->check_only_all() [l-smash]: OK
+[debug]: check():installer->check_only_all() [overall]: OK
+[debug]: abortRequired():no
