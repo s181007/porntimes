@@ -1,0 +1,17 @@
+/**/
+.button_wrapper{
+   text-align:center;
+}
+
+textarea {
+  resize: none;
+}
+
+.ti{
+  float:left;
+  text-align:center;
+}
+
+.zi{
+  font-size:20px;
+}
