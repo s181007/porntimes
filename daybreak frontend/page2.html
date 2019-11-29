@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="components/loader.js"></script>
+    <script>
+        //
+        // TODO: Write JavaScript code here
+        //
+    </script>
+</head>
+<body>
+  <div class="ti">
+    <a href="index.html">
+      <input type="image" src="https://cdn.discordapp.com/attachments/588558672918216725/646915050606690304/29b6188bcebccf1a.png">
+    </a>
+  </div>
+  <div class="ti">
+    <h2>　　　女の子選択</h2>
+  </div>
+  <br><br><br>
+  <hr>
+  <center><h2>好きな子を選択してね☆</h2></center>
+  <p>女の子の紹介
+    <br>
+    <img src="https://cdn.discordapp.com/attachments/647649415670136833/647654414601027604/1.png" id="ona">
+    <textarea id="syou" rows="8" cols="15" class="zi" readonly>まじめな性格のメイドさん。&#13;いろいろなお世話が大好き。</textarea>
+  </p>
+  <hr>
+  <div align="center"><h3>画像をタップして変更</h3>
+  <img onclick="imgchange1()" src="https://cdn.discordapp.com/attachments/647649415670136833/647654414601027604/1.png" id="ona1">
+  <img onclick="imgchange2()" src="https://cdn.discordapp.com/attachments/647649415670136833/647654420837957632/4.png" id="ona2">
+  <h3>　黒ノ下　ユリカ　ルイス・ヴァレリー</h3>
+  <img onclick="imgchange3()" src="https://cdn.discordapp.com/attachments/647649415670136833/647654417868259328/2.png" name="ona3">
+  <img onclick="imgchange4()" src="https://cdn.discordapp.com/attachments/647649415670136833/647654419181076480/3.png" name="ona4">
+  <h3>今吉　陽彩　　　　山本　梓</h3>
+  <img onclick="imgchange5()" src="https://cdn.discordapp.com/attachments/647649415670136833/647654421886664705/5.png" name="ona5">
+  <img onclick="imgchange6()" src="https://cdn.discordapp.com/attachments/647649415670136833/647654427565621259/6.png" name="ona6">
+  <h3>　天野　志乃　　　黒ノ下　エリカ</h3>
+  </div>
+  <script>
+    var ona=document.getElementById('ona');
+    var ona1=document.getElementById('ona1');
+    var ona2=document.getElementById('ona2');
+    var ona3=document.getElementById('ona3');
+    var ona4=document.getElementById('ona4');
+    var ona5=document.getElementById('ona5');
+    var ona6=document.getElementById('ona6');
+    var ziko=document.getElementById('syou');
+    ona1.attachEvent('onclick',imgchange1);
+    ona2.attachEvent('onclick',imgchange2);
+    ona3.attachEvent('onclick',imgchange3);
+    ona4.attachEvent('onclick',imgchange4);
+    ona5.attachEvent('onclick',imgchange5);
+    ona6.attachEvent('onclick',imgchange6);
+    function imgchange1(){
+      ona.src="https://cdn.discordapp.com/attachments/647649415670136833/647654414601027604/1.png";
+      ziko.value="まじめな性格のメイドさん。     いろいろなお世話が大好き。";
+    }
+    function imgchange2(){
+      ona.src="https://cdn.discordapp.com/attachments/647649415670136833/647654420837957632/4.png";
+      ziko.value="スペインからの留学生。         天ぷらが大好き。";
+    }
+    function imgchange3(){
+      ona.src="https://cdn.discordapp.com/attachments/647649415670136833/647654417868259328/2.png";
+      ziko.value="晴れて令和2年で高校生デビューした。           ハイテンションな性格で魅了する。";
+    }
+    function imgchange4(){
+      ona.src="https://cdn.discordapp.com/attachments/647649415670136833/647654419181076480/3.png";
+      ziko.value="おしゃれが好きな大学１年生。   デザイナーを目指している。";
+    }
+    function imgchange5(){
+      ona.src="https://cdn.discordapp.com/attachments/647649415670136833/647654421886664705/5.png";
+      ziko.value="都内のマンションに住む、元気な丸の内OL。";
+    }
+    function imgchange6(){
+      ona.src="https://cdn.discordapp.com/attachments/647649415670136833/647654427565621259/6.png";
+      ziko.value="おとなしい性格の中学生。       ユリカの妹。";
+    }
+
+  </script>
+</body>
+</html>
