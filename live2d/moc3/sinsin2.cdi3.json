@@ -1,0 +1,59 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "前髪の揺れ"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "横髪の揺れ"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "後ろ髪の揺れ"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part2",
+			"Name": "口"
+		},
+		{
+			"Id": "Part4",
+			"Name": "頭"
+		},
+		{
+			"Id": "Part3",
+			"Name": "左目"
+		},
+		{
+			"Id": "Part",
+			"Name": "右目"
+		}
+	]
+}
