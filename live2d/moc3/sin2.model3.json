@@ -1,0 +1,18 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "sin2.moc3",
+		"Textures": [
+			"sin2.1024/texture_00.png"
+		],
+		"Physics": "sin2.physics3.json",
+		"DisplayInfo": "sin2.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
