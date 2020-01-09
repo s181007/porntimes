@@ -181,7 +181,7 @@
 						"Target": "Parameter",
 						"Id": "ParamAngleZ"
 					},
-					"Weight": 100,
+					"Weight": 30,
 					"Type": "Angle",
 					"Reflect": false
 				}
