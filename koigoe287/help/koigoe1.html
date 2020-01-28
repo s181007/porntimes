@@ -1,0 +1,95 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>恋声</title>
+</head>
+
+<body background="sakura_side.gif">
+
+<h2><img border="0" src="koigoe.gif" width="32" height="32">　<font color="#FF0000">恋声</font></h2>   
+
+<hr>
+<p>概要　　　<a href="koigoe2.html">TD-PSOLA画面</a>　　　<a href="koigoe3.html">Phase Vocoder画面</a>　　　<a href="koigoe4.html">Sound     
+Effect画面</a>　　　<a href="koigoe6.html">設定画面</a>　　　<a href="koigoe5.html">問題と対策</a></p>
+<hr>
+<p>Version 2.87</p>
+
+<h2>概要</h2>
+
+<p>　<font color="#FF0000"><b>「恋声」</b></font>はリアルタイムで声の高さ（ピッチ）と声の性質（フォルマント）を変えることのできるソフトです。PCに接続されたマイクからの音声を、男声から女声のように、女声から男声のように変換して出力することができます。Wav等の音声ファイルを入力して変換することもできます。結果は、PCのスピーカーから出力するとともに、wavファイルに保存すこともできます。<br>
+　男声を女声のようにするにはどうしたら良いでしょうか？　ここでは、男声を２倍の声の高さ（ピッチ）の女声にすることを考えます。最も簡単な方法は、再生速度を２倍にすることです。でもこの方法ですと、話す速さが２倍になってしまうのと同時に、成人女性ではなく幼児が話しているように聞こえてしまいます。なぜこうなるのかと言いますと、ピッチが２倍になると同時に、話す人の持っている声の性質（これをフォルマントと呼ぶ）も２倍になってしまうからです。男声と女声ではフォルマントの差は1.2～1.4倍くらいです。<br>
+　逆に、女声から男声に変換しようとして再生速度を1/2にすると、ピッチは1/2になりますが、男声というより、低くこもったモンスター声になってしまいます。これは、フォルマントが下がり過ぎるからです。<br>
+　<font color="#FF0000"><b>「恋声」</b></font>は、話す速さを変えることなく、リアルタイムでピッチとフォルマントを独立に変化させることができるソフトです。<br>
+　<font color="#FF0000"><b>「恋声」</b></font>には、<font color="#008000">TD-PSOLA</font>と<font color="#000080">Phase Vocoder</font>という２種類のピッチ変換方法が搭載されています。一人の人の話す声や無伴奏のソロボーカルの変換には、<font color="#008000">TD-PSOLA</font>が優れています。多数の音から構成されている楽曲等は、<font color="#000080">Phase Vocoder</font>が優れています。用途に応じて使い分けて下さい。<br>                 
+　また、リアルタイム時は三度上の音を、ファイル入力時は任意のピッチの音を重ねて出力することができます。ですので、歌っている本人の声でバックコーラスを重ねることができます。<br>
+　更に、ピッチ情報あるいは周波数情報を画面に表示しますので、音程の確認等に利用できます。<br>
+　ステレオ入力の中央に定位のあるボーカルをカットするあるいは抽出する機能もあります。<br>
+　本ソフトの特徴は、上記の処理をすべてリアルタイムに音声を出力しながら行い、パラメータもリアルタイムに変更可能なことです。<br>
+（ファイル入力して結果をファイル出力する際に、リアルタイム処理よりもより高精度に変換を行うバッチ処理も追加しました。）
+</p>   
+
+<p><b>【ピッチ変換方法の選択】</b><br>
+<br>
+　ピッチ変換方法として、「<font color="#008000">TD-PSOLA</font>」か「<font color="#000080">Phase 
+Vocoder</font>」を選択して下さい。<br>
+　<font color="#008000">TD-PSOLA</font>(Time Domain Pitch Synchronous Overlap             
+Add)は時間軸上の処理で、ピッチとフォルマントを独立に変化させることができるので男声⇔女声の変換に適していますが、一人の声や歌でないとうまく変換できません。<br>
+　<font color="#000080">Phase Vocoder</font>は周波数軸上の処理で、どんな楽曲でもピッチ変換が可能ですが、フォルマントはピッチに連動して変化します。<br>
+　声や歌のピッチ変換は「<font color="#008000">TD-PSOLA</font>」を使用して、伴奏のピッチ変換は「<font color="#000080">Phase 
+Vocoder</font>」を使用することをお勧めします。
+</p>   
+
+<p><b>【主な機能】</b>
+</p>   
+
+<p>（共通な機能）<br>
+　・マイク入力、wav/mp3/mp4/aac/flvファイル入力<br>
+　・変換された音声を出力<br>
+　・変換された音声を保存<br>
+　・グラフィックイコライザー機能<br> 
+　・リバーブ（エコー）機能<br>
+　・鍵盤をクリックするとその音をMIDI出力する
+</p>   
+
+<p>（<font color="#008000">TD-PSOLA</font>画面での機能）<br>
+　・ピッチとフォルマントを独立に変化<br>
+　・ピッチを音名とグラフで表示<br>
+　・ピッチをファイルに保存<br>
+　・保存したピッチファイルにコーラスのピッチを指定することでハーモニーを奏でる<br>
+　・ピッチの平坦化<br>
+　・音声のピッチを正弦波、方形波、鋸波で出力
+</p>   
+
+<p>（<font color="#000080">Phase Vocoder</font>画面での機能）<br> 
+　・ピッチのみ可変（フォルマントはピッチに連動して変化する）<br>
+　・周波数解析した結果を対数、リニア、音階表示<br>
+　・ボーカルのカットあるいは抽出
+</p>   
+
+<p><b>【動作環境】</b><br>
+<br>
+　対応OS ：WindowsVista, Windows7, Windows8, Windows10<br>   
+　対応CPU：SSE2命令が動作するCPUであること<br>
+<br>
+<b>【ソフトウエアの種別】</b><br>
+<br>
+　フリーウエア<br>
+　転載不可<br>
+<br>
+<b>【インストール／アンインストール】</b><br>
+<br>
+　インストールは、圧縮ファイルをお好きな場所に解凍するだけです。<br>
+　アンインストールは解凍したファイルを削除するだけです。</p>
+
+<p>　mp3/mp4/aac/flv形式のファイルや44.1kHz以外のwavファイルを読み込むには、cocha hozumi氏作の「EcoDecoTooL」が別途必要です。以下のサイトからダウンロードして適当なフォルダにインストールして下さい。<br> 
+　<a href="http://sourceforge.jp/projects/ecodecotool/wiki/">http://sourceforge.jp/projects/ecodecotool/wiki/</a><br>
+　「恋声」での設定方法は<a href="koigoe6.html">こちら</a>を参照。
+</p>
+
+</body>
+
+</html>

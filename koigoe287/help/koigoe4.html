@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>恋声</title>
+</head>
+
+<body background="sakura_side.gif">
+
+<h2><img border="0" src="koigoe.gif" width="32" height="32">　<font color="#FF0000">恋声</font></h2>   
+
+<hr>
+<p><a href="koigoe1.html">概要</a>　　　<a href="koigoe2.html">TD-PSOLA画面</a>　　　<a href="koigoe3.html">Phase Vocoder画面</a>　　　Sound    
+Effect画面　　　<a href="koigoe6.html">設定画面</a>　　　<a href="koigoe5.html">問題と対策</a></p>
+<hr>
+<h2>Sound Effect画面</h2>    
+
+<p><img border="0" src="SoundEffect.png" width="453" height="627"></p>
+
+<p>　TD-PSOLAまたはPhase Vocoder選択時に、「Effect」のボタンを押すと上の画面が表示されます。<br>   
+<br>
+（Graphic Equalizer）  
+<br>
+　画面の上半分は、Graphic Equalizer (EQ)    
+のコントロール画面です。<br> 
+　１１個あるスライダーは上に書いてあるC0～C10のそれぞれの付近の音を強調あるいは抑圧することができます。スライダーを上にすると強調し、下にすると抑圧します。<br>
+　その下のグラフは、各音に対する強調／抑圧の程度を表します。色の付いている線は各スライダーに対する特性で、白の太線が全体の特性を表します。<br>
+　このイコライザーの特性を入力音声に適応して音声出力に反映するには、「EQを有効にする」のチェックを入れます。（チェックを入れないと音は変わりません。）<br>
+　「EQを有効にする」のチェックを入れたまま、「閉じる」ボタンを押してこの画面を閉じると、イコライザーが入ったままの状態で音声出力され続けます。<br>
+　「1」～「4」のボタンを、Ctrlキーを押しながらマウスで左クリックすると、現在の設定値を保存します。次回からは、この数字のボタンをマウスで左クリックするだけで以前に設定した状態にすることができます。<br>
+　「Q値」と書いてある欄の値を変えると、フィルタの急峻さが変わります。<br>
+　このプログラムではGraphic EqualizerはTD-PSOLAでのピッチ検出の精度を高めるための前処理の役割を想定しています。<br>
+<br>
+（Reverb）<br>
+　画面の下半分は、Reverb（エコー）のコントロール画面です。<br>
+　Reverb機能とは、エコーがかかったような音声にする機能です。<br>
+　「Reverbを有効にする」のチェックを入れると、Reverb機能が働きます。<br>
+　Reverbの掛かり方は、Attenuation, Delay, Repeat   
+の３つのスライダーで調節できます。<br>
+　画面にはインパルス応答が表示されます。<br>
+　「Default」のボタンを押すと、初期設定の条件に戻ります。<br>
+<br>
+（処理の順序）<br>
+　マイク／ファイル入力　⇒　Graphic Equalizer　⇒　TD-PSOLA／Phase 
+Vocoder　⇒　Reverb　⇒　音声出力<br>
+<br>
+（注意）<br>
+　Batch処理時には、Graphic EqualizerおよびReverbは掛かりません。</p>
+
+</body>
+
+</html>

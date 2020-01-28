@@ -1,0 +1,40 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>恋声</title>
+</head>
+
+<body background="sakura_side.gif">
+
+<h2><img border="0" src="koigoe.gif" width="32" height="32">　<font color="#FF0000">恋声</font></h2>   
+
+<hr>
+<p><a href="koigoe1.html">概要</a>　　　<a href="koigoe2.html">TD-PSOLA画面</a>　　　<a href="koigoe3.html">Phase Vocoder画面</a>　　　<a href="koigoe4.html">Sound 
+Effect画面</a>　　　<a href="koigoe6.html">設定画面</a>　　　問題と対策</p>
+<hr>
+<h2>問題と対策</h2>
+
+<p><font color="#FF0000"><b>「恋声」</b></font>がうまく動作しない場合の、原因と対策<br>
+<br>
+(1) CPUの処理速度の問題<br> 
+　定常的にProcTimeが100ms以上になる場合は、CPUの処理が間に合っていません。使用はあきらめて下さい。（ProcTimeの次の値は処理時間の瞬時値で、次の（）の中は、処理時間の最小値と最大値です。）<br>
+　定常的には処理は間に合っているが、一瞬だけCPUの負荷が重くなって処理が間に合わなくなった時に、音にノイズが混入する場合があります。その場合には一度STOPして再度マイクボタンを押すと正常に動作します。</p>
+<p>(2) 息がマイクに入る<br>
+　息がマイクに入ると正しくピッチ変換されません。息を防ぐマスク付のマイクを使用したり、マイクを離す等の工夫をして下さい。</p>
+<p>(3) マイク入力のボリュームの問題<br>
+　画面に表示されるレベルメーターで、音声が緑か黄色で表示されるようにマイク入力のボリュームを調整して下さい。</p>
+<p>(4) PCのマイク入力の音質の問題<br>
+　一般にPCのマイク入力の音質は悪く雑音が混入するものが多いです。マイク入力を止めて、別の装置から音声をライン入力してみて下さい。びっくりするぐらい変換が良くなる場合があります。</p>
+<p>(5) エコーが含まれている<br>
+　エコー等の音声処理を掛けない入力を使用して下さい。音声処理はピッチ変換後に掛けて下さい。</p>
+<p>(6) WindowsVistaの問題<br>
+　WindowsVistaではオーディオ処理がWindowsXPに比べてかなり遅くなっています。XPでは問題なく動作するのに、それよりCPU性能の高いVistaマシンでは動作しない場合が度々ありました。同じProcTimeでも、XPでは動作するのにVistaでは動作しない場合があります。<br>
+</p>
+
+</body>
+
+</html>
